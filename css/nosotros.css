@@ -1,0 +1,87 @@
+/* Para que guarde la proporcion siempre ya se
+TV, PC, MOVIL*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/* Fuentes  EL body no lleva "." */
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/*Fondo de inico*/
+.site-header.inicio{
+    background-color: #323232;
+    padding: 2rem;
+    
+}
+/* Menu Barra */
+.contenedor{
+    max-width: 120rem ;
+    margin: 0 auto;
+}
+/*Barra*/
+.barra{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* Navegacion */
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 2.5rem;   
+}
+/*Para cmabir el color al selecionarlo en la 
+navegacion*/
+.navegacion a:hover{
+    color: #5f81e4;
+}
+/*No escoga el espacio */
+.navegacion a:last-of-type {
+    margin: 0rem;
+}
+
+/* Seccion foto y texto  */
+.seccion{
+    margin-top: 3rem;
+    margin-bottom: 3em;
+}
+
+/* Centar texto de un elemeto Conoce Sobre Nosotros */
+.centrar-texto{
+    text-align: center;
+}
+/*Poner a la izquierda la imagn y la derecha el texto*/
+.imagen-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+/*Otganizar el texto h3*/
+.texto-nosotros{
+    flex-basis: calc(60% - 20rem);
+}
+/* Icono nosotros */
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    flex-basis: calc(33.3% - 3rem);
+    text-align: center;
+}
+
+.icono h3{
+    text-transform: uppercase;
+}
+.pLetra{
+    font-size: 1.5rem ;
+}
+
